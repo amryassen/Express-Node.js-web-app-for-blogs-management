@@ -1,0 +1,25 @@
+{
+  "html.suggest.html5": true,
+  // Formatting and linting
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true, // hero!
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ], // important for mono-repo projects
+  "files.autoSave": "onFocusChange", // hero
+  "prettier.endOfLine": "auto", // cross-platform
+  "prettier.semi": false, // align with ESLint Standard
+  "prettier.singleQuote": true, // align with ESLint Standard
+  "prettier.trailingComma": "none", // align with ESLint Standard
+  "tabnine.experimentalAutoImports": true,
+  // Language-Specific
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false, // align with ESLint Standard
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false, // align with ESLint Standard
+  "typescript.updateImportsOnFileMove.enabled": "always",
+}
